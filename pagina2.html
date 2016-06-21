@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta name="viewport"	content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+	<script src="script2.js"></script>
+</head>
+<body>
+	<p class="textotitulo">Página 2 </p>
+                          <form name="calculoIMC">
+                                     <label for="v1">Valor1:</label> 
+                                     <input type="text" name="v1" placeholder="Digite o primeiro valor"/><br />
+                                     
+                                     <label for="v2">Valor 2:</label> 
+                                     <input type="text" name="v2" placeholder="Digite o segundo valor."/><br /> 
+                                     
+                                     <input type="button" value="Inserir" onClick="inserir()" />
+                                     <input type="button" value="Gravar" onClick="gravar()" />
+                                     <input type="button" value="Recuperar" onClick="recuperar()" />
+                                      
+                          </form>
+                          
+                          <div id="resultado">
+                          </div>
+		<form>
+		<input type="button" value="Sair" onClick="sair()" />
+		</form>
+  <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+</html>

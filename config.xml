@@ -1,0 +1,11 @@
+<?xml	version="1.0"	encoding="UTF-8"?>
+<widget	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"  id="exemplo1" version="1.0.0">
+<name>
+	Exemplo 1
+</name>
+<description>
+	Primeira app
+</description>
+<preference name="android-minSdkVersion" value="9" />
+<plugin name="cordova-plugin-sqlite-2"/>
+</widget>

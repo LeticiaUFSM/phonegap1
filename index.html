@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta name="viewport"	content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<p class="textotitulo">Olá Mundo!! </p>
+                          <form name="calculoIMC">
+                                     <label for="v1">Valor1:</label> 
+                                     <input type="text" name="v1" placeholder="Digite o primeiro valor"/><br />
+                                     
+                                     <label for="v2">Valor 2:</label> 
+                                     <input type="text" name="v2" placeholder="Digite o segundo valor."/><br /> 
+                                     
+                                     <input type="button" value="Somar" onClick="calcular()" />
+                                     <input type="button" value="Gravar" onClick="gravar()" />
+                                     <input type="button" value="Recuperar" onClick="recuperar()" />
+                                      <input type="button" value="Sair" onClick="sair()" />
+                          </form>
+                          
+                          <div id="resultado">
+                          </div>
+		<form>
+		<input type="button" value="Página 2" onClick="location.href= 'pagina2.html';" />
+		</form>
+              <script src="script.js"></script>
+</body>
+</html>
